@@ -101,18 +101,23 @@ input{
     
 }
 
+.feature{
+  padding: 2%;
+  color: #eab3b3;
+  font-weight: bolder;
+}
 .movie{
   display: inline-flex;
-  background-color: #897f7f;
+  /* background-color: #897f7f; */
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
 }
 .movie-pic{
   margin: 0.5%;
-  background-color: #333;
+  background-color: #4f3434;
   padding:2%;
-  border-radius: 17px;
+  /* border-radius: 17px; */
 }
 
 img{
