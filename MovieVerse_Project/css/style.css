@@ -7,7 +7,7 @@ body {
     background-color: rgba(0, 0, 0, 0.729);
 }
 div{
-   background-color: rgb(64, 41, 41);
+  background-color: rgb(64, 41, 41);
 }
 
 
@@ -20,8 +20,7 @@ div{
 .logo{
     margin-left: 10px;
     width: 5px;
-    display: inline-block;
-   
+    display: inline-block; 
 }
 
 li {
@@ -52,7 +51,6 @@ li:hover{
 }
 
 ul{
- 
   display: flex;
   justify-content: space-around; 
   
@@ -87,4 +85,50 @@ input{
   font-size: 16px;
 
 }
+
+
+.search-input{
+    /* background: ('images/google-mic.png') no-repeat 10px center rgb(243, 207, 207); */
+    background: url('/MovieVerse_Project/images/google-mic.png') no-repeat 10px center rgb(238, 242, 248);
+    padding-left: 35px;
+    height: 40px;
+    width: 450px;
+    background-size: 18px;
+    margin-left: 2%;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.movie{
+  display: inline-flex;
+  background-color: #897f7f;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.movie-pic{
+  margin: 0.5%;
+  background-color: #333;
+  padding:2%;
+  border-radius: 17px;
+}
+
+img{
+  margin: 5% 2%;
+  border-radius: 20px;
+}
+
+.movie-pic:hover{
+  cursor: pointer;
+}
+
 /* Add your styles here */
+
+/* FOOTER section */
+footer{
+  background-color: rgb(97, 101, 101);
+  margin-top: 10%;
+  padding: 2%;
+}
