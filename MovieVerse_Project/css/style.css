@@ -4,17 +4,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgba(0, 0, 0, 0.729);
 }
 div{
    background-color: rgb(64, 41, 41);
-   margin-bottom: 1px;
 }
+
 
 .banner{
     display: inline-block;
     margin-left: 280px;
     
 }
+
 .logo{
     margin-left: 10px;
     width: 5px;
@@ -22,4 +24,67 @@ div{
    
 }
 
+li {
+    list-style: none;
+    justify-content: center; 
+    display:flex;
+    display: inline-block;  
+  padding: 5px 50px;
+  margin-top: 1px;
+  
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px; 
+  border: 2px solid white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: rgb(64, 41, 41);
+    transition: 0.5s;
+    color:white;
+}
+
+ul{
+ 
+  display: flex;
+  justify-content: space-around; 
+  
+  padding: 20px;
+
+}
+
+input{
+    width: 500px;
+    height: 50px ;
+    margin-left: 450px;
+    border-radius: 20px;
+
+}
+
+#search_box{
+    position: relative;
+    width: 100%;
+}
+.search_icon{
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  width: 5%;
+  height: 100%;
+  pointer-events: none;
+}
+#search_box input{
+  width: 50%;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+
+}
 /* Add your styles here */
