@@ -1,4 +1,4 @@
-/* MovieVerse Project - Starter Styles */
+/* This is nav css*/
 
 body {
     font-family: Arial, sans-serif;
@@ -41,6 +41,7 @@ li {
 a{
     color: white;
     text-decoration: none;
+    padding: 100%;
 }
 
 li:hover{
@@ -59,7 +60,7 @@ ul{
 }
 
 input{
-    width: 500px;
+    width: 400px;
     height: 50px ;
     margin-left: 450px;
     border-radius: 20px;
@@ -69,6 +70,7 @@ input{
 #search_box{
     position: relative;
     width: 100%;
+    
 }
 .search_icon{
   position: absolute;
@@ -83,7 +85,6 @@ input{
   border-radius: 25px;
   border: 2px solid #ccc;
   font-size: 16px;
-
 }
 
 
@@ -92,12 +93,12 @@ input{
     background: url('/MovieVerse_Project/images/google-mic.png') no-repeat 10px center rgb(238, 242, 248);
     padding-left: 35px;
     height: 40px;
-    width: 450px;
+    width: 50%;
     background-size: 18px;
     margin-left: 2%;
     border-radius: 25px;
     text-align: center;
-    width: 100%;
+    
     
 }
 
@@ -121,7 +122,7 @@ input{
 }
 
 img{
-  margin: 5% 2%;
+  margin: 5% 5%;
   border-radius: 20px;
 }
 
