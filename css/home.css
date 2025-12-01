@@ -98,7 +98,7 @@ input{
 
 .search-input{
     /* background: ('images/google-mic.png') no-repeat 10px center rgb(243, 207, 207); */
-    background: url('/Project_1620/MovieVerse_Project/images/google-mic.png') no-repeat 10px center rgb(238, 242, 248);
+    background: url('/Project_1620/images/google-mic.png') no-repeat 10px center rgb(238, 242, 248);
     padding-left: 35px;
     height: 40px;
     width: 50%;
