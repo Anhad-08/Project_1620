@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="css/contact.css">
+
+
 </head>
 <body>
     <!-- Navigation -->
@@ -16,7 +18,33 @@
     </ul>
 </nav>
     <!-- Main Content -->
+    <div class="container">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" placeholder="Your first name">
 
-    <!-- Footer -->
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" placeholder="Your last name">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="you@example.com">
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="123-456-7890">
+
+      <label for="message">Leave a Message</label>
+      <textarea id="message" placeholder="Type your message here..."></textarea>
+
+      <button type="submit" class="submit-btn"> <a href="message_recieved.html" style = "color: white; text-decoration: none;"> Submit </a></button>
+    </form>
+
+    <div class="footer-buttons">
+      <a href="mailto:support@movieverse.com">Email Us</a>
+      <a href="contact.html">Contact Us</a>
+    
+    </div>
+  </div>
+  
 </body>
 </html>
